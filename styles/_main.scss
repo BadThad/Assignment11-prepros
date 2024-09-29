@@ -1,0 +1,22 @@
+.img-grid {
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+
+    &__img1 {
+        grid-area: 1/1/4/9;        
+    }
+
+    &__img2 {
+        grid-area: 1/9/4/17;
+    }
+
+    &__img3 {
+        grid-area: 1/17/4/25;
+    }
+
+    &__im4 {
+        grid-area: 1/25/4/33;
+    }
+}
