@@ -5,23 +5,25 @@
     margin-top: 7%;
 }
 
-.nav-bar {
+.header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-bar-right {
+.header-nav-right {
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
+    font-family: fonts.$main-font;
     font-size: 28px;
     font-weight: 700;
 }
 
 .nav-btn {
+    font-family: fonts.$main-font;
     font-size: 18px;
     font-weight: 700;
     margin-left: 3vw;
