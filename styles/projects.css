@@ -1,0 +1,180 @@
+.header {
+  height: 3vh;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 7%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-btn {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 3vw;
+}
+
+.footer {
+  height: 10vh;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 7%;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav-right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-btn {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 3vw;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-btn-1 {
+  height: 15px;
+  width: 15px;
+}
+
+.social-btn-2 {
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+}
+
+.social-btn-3 {
+  margin-left: 10px;
+  height: 20px;
+  width: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  margin-top: 8%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.project-topsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-text1_container {
+  width: 60%;
+}
+
+.project-text1-title {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  width: 70%;
+  margin: 0;
+}
+
+.project-info_container {
+  display: flex;
+}
+
+.project-text1-p1, .project-text1-p2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  opacity: 80%;
+  line-height: 26px;
+}
+
+.category_container p {
+  margin: 0;
+  padding: 15px 5vw 15px 0px;
+  border-bottom: solid;
+  border-color: rgb(151, 151, 151);
+}
+
+.category-details_container p {
+  margin: 0;
+  padding: 15px 2vw 15px 0px;
+  border-bottom: solid;
+  border-color: rgba(151, 151, 151, 0.5);
+}
+
+/* Had to match border opacity using rgba to that of 
+the category class text which is set to 50%. */
+.category {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 50%;
+}
+
+.details {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project-mainimage_container {
+  margin-top: 6vh;
+}
+
+.project-mainimage_container img {
+  width: 100%;
+}
+
+.project-text2_container {
+  margin: 5vh 0 7vh 0;
+}
+
+.project-text2_container p {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 80%;
+}
+
+.project-images_container {
+  margin-bottom: 15vh;
+}
+
+.project-images_container img {
+  width: 33%;
+}
