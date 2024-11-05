@@ -17,6 +17,11 @@
     margin-left: 40%;
 }
 
+.footer-nav-right a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+}
+
 .logo {
     font-size: 28px;
     font-weight: 700;
@@ -50,4 +55,10 @@
     margin-left: 10px;
     height: 20px;
     width: 16px;
+}
+
+.social a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    color: rgba(17, 76, 136, 0.8);
 }

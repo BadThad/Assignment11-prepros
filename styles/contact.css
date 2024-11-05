@@ -29,6 +29,15 @@
   margin-left: 3vw;
 }
 
+.nav-bar-right a:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.active-page {
+  text-decoration: underline;
+}
+
 .footer {
   height: 10vh;
   margin-left: 9%;
@@ -46,6 +55,11 @@
   display: flex;
   justify-content: space-between;
   margin-left: 40%;
+}
+
+.footer-nav-right a:hover {
+  display: inline-block;
+  transform: scale(1.1);
 }
 
 .logo {
@@ -81,6 +95,12 @@
   margin-left: 10px;
   height: 20px;
   width: 16px;
+}
+
+.social a:hover {
+  display: inline-block;
+  transform: scale(1.1);
+  color: rgba(17, 76, 136, 0.8);
 }
 
 body {

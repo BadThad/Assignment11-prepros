@@ -28,3 +28,12 @@
     font-weight: 700;
     margin-left: 3vw;
 }
+
+.nav-bar-right a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+.active-page {
+    text-decoration: underline;
+}
