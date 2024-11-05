@@ -102,23 +102,65 @@ main {
   width: 50%;
 }
 
-.text_container p {
-  margin: 0;
-}
-
 .text-title {
   font-family: "Mulish", sans-serif;
   font-size: 40px;
   font-weight: bold;
+  line-height: 55px;
+  width: 80%;
+  margin: 0;
 }
 
 .text-info {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
+  line-height: 26px;
+  opacity: 80%;
+  width: 70%;
+  margin-top: 3vh;
 }
 
 .contactform {
   margin-left: auto;
+  width: 35%;
+}
+
+form div label {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 60%;
+}
+
+form div input {
+  border: none;
+}
+
+input[type=text] {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  height: 4vh;
+}
+
+form div {
+  border-bottom: solid;
+  border-color: #D8D8D8;
+  padding: 20px 0px;
+}
+
+form div:last-child {
+  border: none;
+}
+
+.submit input {
+  padding: 15px 30px;
+  background-color: #4A4FF2;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .map_container {
