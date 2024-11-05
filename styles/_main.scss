@@ -160,14 +160,14 @@ main {
 
 .awards-top {
     display: grid;
-    grid-template-columns: 380px 380px 1fr 150px;
+    grid-template-columns: 30% 40% 1fr 10%;
     grid-template-rows: 50px 80px 50px 50px 80px 40px;
     align-items: center;
 }
 
 .awards-bottom {
     display: grid;
-    grid-template-columns: 380px 380px 1fr 150px;
+    grid-template-columns: 30% 40% 1fr 10%;
     grid-template-rows: 50px 80px 50px 50px 80px 40px;
     align-items: center;
     padding-top: 40px;
