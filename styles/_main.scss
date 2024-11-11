@@ -41,12 +41,17 @@ main {
     color: #4A4FF2;
 }
 
+.img-grid img {
+    width: 100%;
+    height: 100%;
+}
+
 .img-grid {
     margin-top: 10%;
     max-width: 82%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: repeat(32, 1fr); !-- Why does including this mess up the layout?
+    grid-template-rows: repeat(32, 1fr); 
     grid-gap: 20px;
 
     &__img1 {
