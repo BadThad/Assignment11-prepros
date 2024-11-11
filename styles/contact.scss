@@ -16,7 +16,6 @@ main {
 
 .contact-topsection {
     display: flex;
-
 }
 
 .text_container {
@@ -86,4 +85,8 @@ form div:last-child {
 
 .map_container {
     margin-top: 10vh;
+}
+
+.map_container iframe {
+    width: 100%;
 }

@@ -48,7 +48,6 @@ main {
 
 .img-grid {
     margin-top: 10%;
-    max-width: 82%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(32, 1fr); 
@@ -67,7 +66,7 @@ main {
     }
 
     &__img4 {
-        grid-area: 24/1/32/2;
+        grid-area: 24/1/33/2;
     }
 
     &__img5 {
@@ -83,7 +82,7 @@ main {
     }
 
     &__img8 {
-        grid-area: 23/2/32/3;
+        grid-area: 23/2/33/3;
     }
 
     &__img9 {
@@ -99,7 +98,7 @@ main {
     }
 
     &__img12 {
-        grid-area: 27/3/32/4;
+        grid-area: 27/3/33/4;
     }
 }
 

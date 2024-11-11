@@ -5,21 +5,17 @@
   margin-top: 7%;
 }
 
-.header-nav {
+.header-nav ul {
   display: flex;
-  justify-content: space-between;
+  text-align: right;
   align-items: center;
-}
-
-.header-nav-right {
-  display: flex;
-  justify-content: space-between;
 }
 
 .logo {
   font-family: "Mulish", sans-serif;
   font-size: 28px;
   font-weight: 700;
+  margin-right: auto;
 }
 
 .nav-btn {
@@ -29,7 +25,7 @@
   margin-left: 3vw;
 }
 
-.nav-bar-right a:hover {
+.nav-btn:hover {
   display: inline-block;
   transform: scale(1.1);
 }
@@ -47,19 +43,16 @@
 
 .footer-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
 }
 
-.footer-nav-right {
+.footer-nav ul {
   display: flex;
   justify-content: space-between;
-  margin-left: 40%;
-}
-
-.footer-nav-right a:hover {
-  display: inline-block;
-  transform: scale(1.1);
+  align-items: center;
+  margin-right: auto;
+  width: 82%;
 }
 
 .logo {
@@ -75,26 +68,14 @@
   text-decoration: none;
 }
 
-.social {
-  display: flex;
-  align-items: center;
+.nav-btn:hover {
+  display: inline-block;
+  transform: scale(1.1);
 }
 
-.social-btn-1 {
-  height: 15px;
-  width: 15px;
-}
-
-.social-btn-2 {
-  margin-left: 10px;
-  height: 18px;
-  width: 18px;
-}
-
-.social-btn-3 {
-  margin-left: 10px;
-  height: 20px;
-  width: 16px;
+.social a {
+  color: black;
+  margin-left: 1vw;
 }
 
 .social a:hover {
@@ -143,6 +124,7 @@ main {
   font-size: 16px;
   opacity: 80%;
   line-height: 26px;
+  margin-top: 3vh;
 }
 
 .category_container p {

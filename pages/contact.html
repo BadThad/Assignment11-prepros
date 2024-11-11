@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis - Contact</title>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="/styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles/contact.css">
 </head>
 <body>
     <header class="header">
         <nav class="header-nav">
-            <div class="header-nav-left">
-                <a href="./index.html" class="home-btn logo">Genesis</a>
-            </div>    
-            <div class="nav-bar-right">
+            <ul>
+                <a href="/index.html" class="home-btn logo">Genesis</a>    
                 <a href="/pages/projects.html" class="nav-btn">Projects</a>
-                <a href="/pages/contact.html" class="nav-btn active-page">Contact</a>
-            </div>
+                <a href="pages/contact.html" class="nav-btn">Contact</a>
+            </ul>
         </nav>
     </header>
     <main>
@@ -42,15 +41,15 @@
                 <form action="#">
                     <div class="form-name">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-email">
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-message">
                         <label for="message">Message</label>
-                        <input type="text" id="message" name="message">
+                        <input type="text" id="message" name="message" required>
                     </div>
                     <div class="submit">
                         <input type="submit" value="Submit">
@@ -59,25 +58,21 @@
             </div>
         </div>
         <div class="map_container">
-            <img src="images/contact-page-imgs/Map.png" alt="map-img">
-        </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4483.285139153004!2d-73.9458945901082!3d40.69925756797992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1731349386407!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </main>
     <footer class="footer">
         <nav class="footer-nav">
-            <div class="footer-nav-left">
-                <a href="./index.html" class="home-btn logo">Genesis</a>
-            </div>    
-            <div class="footer-nav-right">
+            <ul>
+                <a href="/index.html" class="home-btn logo">Genesis</a>
                 <a href="/pages/projects.html" class="nav-btn">Projects</a>
                 <a href="/pages/contact.html" class="nav-btn">Contact</a>
-            </div>
+            </ul>
             <div class="social">
-                <a href="#"><img class="social-btn-1" src="/images/svg/dribble-brand-wire.svg" alt="dribble_logo"></a>
-                <a href="#"><img class="social-btn-2" src="/images/svg/instagram-brands-solid.svg" alt="instagram_logo"></a>
-                <a href="#"><img class="social-btn-3" src="/images/svg/twitter-brands-solid.svg" alt="twitter_logo"></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </nav>
     </footer>
-
 </body>
 </html>

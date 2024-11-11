@@ -5,21 +5,17 @@
     margin-top: 7%;
 }
 
-.header-nav {
+.header-nav ul {
     display: flex;
-    justify-content: space-between;
+    text-align: right;
     align-items: center;
-}
-
-.header-nav-right {
-    display: flex;
-    justify-content: space-between;
 }
 
 .logo {
     font-family: fonts.$main-font;
     font-size: 28px;
     font-weight: 700;
+    margin-right: auto;
 }
 
 .nav-btn {
@@ -29,7 +25,7 @@
     margin-left: 3vw;
 }
 
-.nav-bar-right a:hover {
+.nav-btn:hover {
     display: inline-block;
     transform: scale(1.1);
 }
